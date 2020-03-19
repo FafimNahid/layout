@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: indianred;
+  
+}
+header 
+h1{
+  text-align: center; 
+  padding: 20px;
+
+}
+nav{
+    background-color: lightgreen;
+    padding: 20px;
+}
+nav h1{
+    text-align: center;
+}
+section{
+    overflow: hidden;
+}
+aside{
+background-color: orchid;
+    width: 20%;
+    height: 300px;
+    float: left;
+    
+
+}
+article{
+    background-color: peru;
+    
+    width: 80%;
+    height: 300px;
+    float: right;
+   text-align: center;
+
+}
+footer{
+    background-color: royalblue;
+    text-align: center;
+    padding: 20px;
+}

@@ -4,43 +4,83 @@
 }
 header{
     background-color: indianred;
-  
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    
 }
-header 
-h1{
-  text-align: center; 
-  padding: 20px;
-
+.logo{
+    color: white;
+    background-color: teal;
+    width: 30%;
+    float: left;
+}
+.banner{
+    background-color: violet;
+    width: 70%;
+    float: right;
 }
 nav{
-    background-color: lightgreen;
-    padding: 20px;
-}
-nav h1{
+    background-color: cadetblue;
     text-align: center;
-}
-section{
-    overflow: hidden;
-}
-aside{
-background-color: orchid;
-    width: 20%;
-    height: 300px;
-    float: left;
-    
-
+    padding: 20px;
 }
 article{
-    background-color: peru;
-    
-    width: 80%;
-    height: 300px;
-    float: right;
-   text-align: center;
+    background-color: coral;
+    height: 450px;
+    overflow: hidden;
+}
+.left{
+    width: 20%;
+    background-color: darkorchid;
+    height: 450px;
+    float: left;
+    text-align: center;
+}
+.middle{
+    background-color: darkturquoise;
+    width: 60%;
+    height: 450px;
+    float: left;
+}
+.right{
+    background-color: lawngreen;
+    width: 20%;
+    height: 450px;
+    float: right ;
+    text-align: center;
+    overflow: hidden;
+}
+.top{
+background-color: limegreen;
+height: 150px;
+text-align: center;
+}
+.center{
+background-color: olive;
+height: 150px;
 
 }
+.bottom{
+background-color: palegreen;
+height: 150px;
+width: 100%;
+text-align: center;
+
+}
+.center-left{
+    background-color: plum;
+width: 50%;
+height: 100%;
+float: left;
+}
+.center-right{
+    background-color: darkgrey;
+    width: 50%;
+    height: 100%;
+    float :right;
+}
 footer{
-    background-color: royalblue;
+    background-color: magenta;
     text-align: center;
-    padding: 20px;
 }
